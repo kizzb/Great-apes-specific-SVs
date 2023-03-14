@@ -1,2 +1,2 @@
 # Great-apes-specific-SVs
-The pupose of this research it to study the great apes specific structure variation
+The pupose of this research is to study the great apes specific structure variation
