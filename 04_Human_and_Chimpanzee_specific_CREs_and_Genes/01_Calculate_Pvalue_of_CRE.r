@@ -1,9 +1,7 @@
-library(tidyverse)
-
 # Read data from literature
 df <- read.table("human_chimp_macaque_DE_analysis/CREs_3Species_ReadCounts_Normalized_CRELength_ReadsInPeaks_NN-RS53875B.txt", header = T)
 
-# Interation based on 8 brain region 
+# Interation based on 7 brain region 
 for (j in c("CaudateNucleus","Cerebellum","OccipitalPole","PrecentralGyrus","PrefrontalCortex","Putamen","ThalamicNuclei")){
 	
 	# Generate new csv file to save reslut
