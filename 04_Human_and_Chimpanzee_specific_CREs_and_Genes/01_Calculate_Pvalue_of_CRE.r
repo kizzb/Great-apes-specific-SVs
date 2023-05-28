@@ -6,7 +6,7 @@ for (j in c("CaudateNucleus","Cerebellum","OccipitalPole","PrecentralGyrus","Pre
 	
 	# Generate new tab file to save reslut
 	sink(paste0(j,"_hu_ch_rh_DE.tab"))
-	cat("CRE,Human_mean,Chimp_mean,Macaque_mean,DE_hu_ch,DE_hu_rh,DE_ch_rh\n")
+	cat("CRE\tHuman_mean\tChimp_mean\tMacaque_mean\tDE_hu_ch\tDE_hu_rh\tDE_ch_rh\n")
 
 	# Interation per line data(Total 60702 CREs)
 	for(i in seq(1, 60702)){
